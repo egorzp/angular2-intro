@@ -3,6 +3,7 @@
     <h1>{{title}}</h1>
 </header>
 <main>
+<todo-form></todo-form>
     <section class="todo-list" *ngIf="todos.length">
         <div class="todo-item" *ngFor="let todo of todos" 
         [class.completed]="todo.completed">
